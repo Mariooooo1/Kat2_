@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientcolor"
+    tools:context=".activities.Patternlock">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:text="Please Draw Your Pattern To Continue"
+        android:textAlignment="center"
+        android:textColor="#FDD017"
+        android:textSize="20dp" />
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/patternlock1"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        app:normalStateColor="#4CC417"
+        app:dotNormalSize="10dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

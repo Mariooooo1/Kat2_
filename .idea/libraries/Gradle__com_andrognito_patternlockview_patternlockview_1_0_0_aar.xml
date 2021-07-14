@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.andrognito.patternlockview:patternlockview:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/transforms-2/files-2.1/f88f8f30c0455c7882bc4500e64e4cf6/jetified-patternlockview-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/transforms-2/files-2.1/f88f8f30c0455c7882bc4500e64e4cf6/jetified-patternlockview-1.0.0/jars/classes.jar!/" />
+      <root url="file://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/transforms-2/files-2.1/f88f8f30c0455c7882bc4500e64e4cf6/jetified-patternlockview-1.0.0/res" />
+      <root url="file://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/transforms-2/files-2.1/f88f8f30c0455c7882bc4500e64e4cf6/jetified-patternlockview-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/modules-2/files-2.1/com.andrognito.patternlockview/patternlockview/1.0.0/b9ff2b969b97532fc830d416f48aa5bf5ae683a1/patternlockview-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/Mario/Sem aksel/Frontier Tech/gradle-2.2-all/gradle-2.2/caches/modules-2/files-2.1/com.andrognito.patternlockview/patternlockview/1.0.0/c7de6c90a141e1a03c9db6693079e6fa795b24a0/patternlockview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

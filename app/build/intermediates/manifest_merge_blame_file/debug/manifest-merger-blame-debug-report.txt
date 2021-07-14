@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azhar.wisatapurwakarta"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:9:5-42:19
+23        android:allowBackup="true"
+23-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\476e418bae6a1646436b14a2350f3166\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme"
+31-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:15:9-40
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:16:9-44
+33        <activity android:name="com.azhar.wisatapurwakarta.activities.PrayPlaceActivity" />
+33-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:17:9-66
+33-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:17:19-63
+34        <activity android:name="com.azhar.wisatapurwakarta.activities.DetailWisataActivity" />
+34-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:18:9-69
+34-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:18:19-66
+35        <activity android:name="com.azhar.wisatapurwakarta.activities.WisataActivity" />
+35-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:19:9-63
+35-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:19:19-60
+36        <activity android:name="com.azhar.wisatapurwakarta.activities.DetailKulinerActivity" />
+36-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:20:9-70
+36-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:20:19-67
+37        <activity android:name="com.azhar.wisatapurwakarta.activities.KulinerActivity" />
+37-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:21:9-64
+37-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:21:19-61
+38        <activity android:name="com.azhar.wisatapurwakarta.activities.DetailHotelActivity" />
+38-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:22:9-68
+38-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:22:19-65
+39        <activity android:name="com.azhar.wisatapurwakarta.activities.HotelActivity" />
+39-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:23:9-62
+39-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:23:19-59
+40        <activity android:name="com.azhar.wisatapurwakarta.activities.MainActivity" >
+40-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:24:9-25:20
+40-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:24:19-58
+41        </activity>
+42        <activity android:name="com.azhar.wisatapurwakarta.activities.Patternlock" >
+42-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:26:9-33:20
+42-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:26:19-57
+43            <intent-filter>
+43-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:27:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <meta-data
+50-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:36:9-38:69
+51            android:name="com.google.android.gms.version"
+51-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:37:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:38:13-66
+53        <meta-data
+53-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:39:9-41:51
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:40:13-58
+55            android:value="Google Maps API KEY" />
+55-->C:\Users\mario\KAT 2 Final\Kat2Finalzip\Tugas-Akhir-Mobile-main\app\src\main\AndroidManifest.xml:41:13-48
+56        <!-- Needs to be explicitly declared on P+ -->
+57        <uses-library
+57-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+58            android:name="org.apache.http.legacy"
+58-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+59            android:required="false" />
+59-->[com.google.android.gms:play-services-maps:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.0.0] F:\Mario\Sem aksel\Frontier Tech\gradle-2.2-all\gradle-2.2\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+65    </application>
+66
+67</manifest>
